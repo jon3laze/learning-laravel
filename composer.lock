@@ -4,8 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "534b43123be9bc5ecd9df94f02acd892",
     "packages": [
+        {
+            "name": "davestewart/sketchpad",
+            "version": "v1.2.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davestewart/laravel-sketchpad.git",
+                "reference": "8c6200a545f9e36ea1424208b3eae1dfa7503372"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davestewart/laravel-sketchpad/zipball/8c6200a545f9e36ea1424208b3eae1dfa7503372",
+                "reference": "8c6200a545f9e36ea1424208b3eae1dfa7503372",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.0",
+                "php": ">=5.3.0",
+                "symfony/filesystem": "^3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "davestewart\\sketchpad\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Stewart",
+                    "homepage": "http://davestewart.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An innovative front-end environment for interactive Laravel development",
+            "homepage": "https://github.com/davestewart/laravel-sketchpad",
+            "keywords": [
+                "Tinker",
+                "laravel",
+                "playground",
+                "testing",
+                "tools"
+            ],
+            "time": "2017-10-02T17:50:14+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -2367,6 +2414,56 @@
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
             "time": "2019-01-05T16:37:49+00:00"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v3.4.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "c24ce3d18ccc9bb9d7e1d6ce9330fcc6061cafde"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/c24ce3d18ccc9bb9d7e1d6ce9330fcc6061cafde",
+                "reference": "c24ce3d18ccc9bb9d7e1d6ce9330fcc6061cafde",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-01-01T13:45:19+00:00"
         },
         {
             "name": "symfony/finder",

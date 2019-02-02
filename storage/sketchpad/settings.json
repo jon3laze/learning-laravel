@@ -1,0 +1,35 @@
+{
+    "route": "/sketchpad/",
+    "paths": {
+        "controllers": [
+            {
+                "name": "app",
+                "path": "app/Http/Controllers",
+                "enabled": true
+            }
+        ],
+        "views": "resources/views/",
+        "assets": "resources/assets/"
+    },
+    "site": {
+        "name": "Sketchpad",
+        "home": "welcome",
+        "help": "help",
+        "views": "",
+        "search": true,
+        "favourites": true
+    },
+    "livereload": {
+        "preset": "",
+        "host": "",
+        "usePolling": false,
+        "paths": []
+    },
+    "ui": {
+        "humanizeText": true,
+        "showComments": true,
+        "showArchived": true,
+        "formatCode": true,
+        "scrollTop": true
+    }
+}

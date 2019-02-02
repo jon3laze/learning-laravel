@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        davestewart\sketchpad\SketchpadServiceProvider::class,
         /*
          * Application Service Providers...
          */
